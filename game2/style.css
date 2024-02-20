@@ -1,0 +1,43 @@
+/* Стили для игрового экрана */
+#gameBoard {
+    /* стили для игрового поля */
+    width: 1500px;
+    height: 600px;
+    border: 2px solid black;
+    position: relative;
+}
+.player {
+    /* стили для отображения игрока на поле */
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.monster {
+    /* стили для отображения монстров на поле */
+    width: 20px;
+    height: 20px;
+    background-color: rgb(253, 6, 6);
+    position: absolute;
+}
+.trap {
+    /* стили для отображения ловушек на поле */
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+} 
+#pauseScreen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+}
